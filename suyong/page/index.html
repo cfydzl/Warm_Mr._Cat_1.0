@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <!-- 引入reset.css清楚默认格式 -->
+    <link rel="stylesheet" type="text/css" href="../sum/seset.css"/>
+    <!-- fontcss文件 -->
+    <link rel="stylesheet" type="text/css" href="../sum/font-awesome-4.7.0/css/font-awesome.css"/>
+    <!-- index的css文件 -->
+    <link rel="stylesheet" type="text/css" href="../css/page-index.css"/>
+    <!-- javascript -->
+    <script src="../sum/jquery/jquery-1.12.4.js"></script>
+    <!-- show.js -->
+    <script src="../js/page-index.js"></script>
+    <!--cookie-->
+    <script src="../sum/jquery-cookie-1.4.1/jquery.cookie.js"></script>
+</head>
+<body>
+<form class="show" >
+    <div class="login">
+        登录
+    </div>
+    <div class="user">
+        <div class="uesr-name">用户名</div>
+        <span class="fa fa-user"></span>
+        <input type="text" name="uesrname" placeholder="请输入用户名" autocomplete="off">
+    </div>
+    <div class="password">
+        <div class="password-pass">密码</div>
+        <span class="fa fa-unlock-alt"></span>
+        <input type="password" name="password" placeholder="请输入密码" autocomplete="off">
+    </div>
+    <a class="visitor" href="javascript:void(0);">游客登录</a>
+    <a class="forget" href="javascript:void(0);">忘记密码</a>
+    <input class="button" type="button" value="提交">
+    <div class="picture">
+        <img src="../img/1.png">
+        <span>暖喵先生</span>
+    </div>
+    <a class="register" href="javascript:void(0);">立马注册</a>
+</form>
+<form class="register-show" style="display: none">
+    <a class="return" ><span class="fa fa-reply"></span></a>
+    <div class="login">
+        注册
+    </div>
+    <div class="user">
+        <div class="uesr-name">用户名</div>
+        <span class="fa fa-user"></span>
+        <input type="text" name="uesrname" placeholder="请输入用户名" autocomplete="off">
+    </div>
+    <div class="password">
+        <div class="password-pass">密码</div>
+        <span class="fa fa-unlock-alt"></span>
+        <input type="password" name="password" placeholder="请输入密码" autocomplete="off">
+    </div>
+    <div class="repassword">
+        <div class="password-repass">确认密码</div>
+        <span class="fa fa-unlock-alt"></span>
+        <input type="password" name="password" placeholder="请确认密码" autocomplete="off">
+    </div>
+    <input class="register-button" type="button" value="注册">
+    <div class="register-picture">
+        <img src="../img/1.png">
+        <span>暖喵先生</span>
+    </div>
+</form>
+</body>
+</html>

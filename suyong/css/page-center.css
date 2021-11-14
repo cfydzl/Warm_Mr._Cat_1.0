@@ -1,0 +1,287 @@
+/* 高度塌陷 */
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    width: 1530px;
+    background-color: #F8ECD6;
+    margin: 0px auto;
+}
+.select{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+/*顶端灰色导航*/
+.search-button{
+    cursor: pointer;
+}
+.top-title {
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 164px 0 164px;
+    border-bottom: 1px #eaeaea solid;
+    background-color: #F8ECD6;
+}
+.top-title a:hover
+{
+    color: #826742;
+}
+/*导航栏超链接向右浮动*/
+.top-right {
+    font-size: 13px;
+    float: right;
+    color: #999999;
+    padding-right: 28px;
+    text-decoration: none;
+}
+.top-head{
+    float: left;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #999999;
+}
+.center-name{
+    float: left;
+    padding-left: 25px;
+    font-size: 13px;
+    color: #999999;
+}
+.center-top-name{
+    font-size: 13px;
+    color: #FF9900;
+}
+.exit{
+    margin-left: 10px;
+}
+/*白色导航总体*/
+.top-face {
+    height: 102px;
+    background-color: #FFFAE8;
+    /*background-color: red;*/
+    padding: 22px 164px 0 200px;
+    border-bottom: 1px #eaeaea solid;
+    margin-bottom: 20px;
+}
+.top-search{
+    border: 1px #eaeaea solid;
+    margin-top: 15px;
+    margin-right: 201px;
+    float:  right;
+}
+.search-text{
+    padding-left: 10px;
+    width: 470px;
+    height: 35px;
+    border: none;
+    background-color: #FFFAE8;
+    outline: none;
+}
+.search-button{
+    width: 80px;
+    height: 37px;
+    border: none;
+    background-color: #F8ECD6;
+    float: right;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: #B6B2AC;
+}
+/*图片暖喵*/
+.picture-1 {
+    float: left;
+}
+/*店名*/
+.name {
+    float: left;
+}
+/*暖喵先生*/
+.name-1 {
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 40px 0px 0px 10px;
+}
+/*左边选择栏*/
+.close-left{
+    padding: 33px 25px 0px 32px;
+    width: 165px;
+    height: 593px;
+    float: left;
+    background-color: #FFFAE8;
+    margin-left: 168px;
+    border-radius: 10px;
+}
+.close-left>div{
+    cursor: pointer;
+    margin-bottom: 35px;
+    font-size: 16px;
+    color: #222222;
+}
+.close-left>div>span{
+    float: right;
+    color: #666666;
+}
+/*右边信息*/
+.personal-information,.restaurant-information,.menu-information,.out-information,.contact-information{
+    padding: 25px 25px 0px 25px;
+    width: 900px;
+    height: 600px;
+    float: right;
+    background-color: #FFFAE8;
+    margin-right: 168px;
+    border-radius: 10px;
+}
+.restaurant-information>span,.menu-information>span,.out-information>span,.contact-information>span{
+    display: block;
+    color: #999999;
+    margin-bottom: 25px;
+    padding: 0px 30px 0px 30px;
+}
+.information-title{
+    margin-bottom: 32px;
+}
+.information-title>div{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.information-title>p{
+    padding-top: 3px;
+    color: #666666;
+    font-size: 15px;
+}
+.information-username,.information-password,.information-phone,.information-address,.information-name{
+    font-size: 20px;
+    height: 100px;
+    border-top: 1px #E5E5E5 solid;
+}
+.username-title,.password-title,.phone-title,.address-title,.name-title{
+    float: right;
+    margin-right: 25px;
+    line-height: 90px;
+    color: #666666;
+}
+.username-information,.password-information,.phone-information,.address-information,.name-information{
+    width: 650px;
+    height: 32px;
+    padding-left: 20px;
+    border-left: 1px #E5E5E5 solid;
+    float: right;
+    margin-top: 30px;
+    line-height: 28px;
+    color: #999999;
+    font-size: 17px;
+}
+.password-button,.phone-button,.address-button,.name-button{
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+    width: 85px;
+    height: 26px;
+    float: right;
+    border: 1px #E5E5E5 solid;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    background-color: #F8ECD6;
+}
+.username-button{
+    margin-top: 30px;
+    width: 85px;
+    height: 26px;
+    float: right;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+/*底部信息*/
+.school{
+    margin-left: 168px;
+    height: 100px;
+    width: 1192px;
+    float: left;
+}
+.schoolname{
+    /* background-color: #F8ECD6; */
+    float: left;
+    padding: 35px 0px 0px 35px;
+    font-size: 13px;
+    color: #999999;
+}
+.schoolname-name span{
+    font-size: 30px;
+    font-weight: 900;
+}
+.school-picture{
+    padding-top: 10px;
+}
+.schoolname-name{
+    padding-top: 47px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*修改浮窗*/
+.change-show{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.change-password,.change-username,.change-phone,.change-address{
+    background-color: #FFFAE8;
+    width: 480px;
+    height: 300px;
+    margin: 130px auto 0px;
+    border-radius: 15px;
+}
+.change-password-title,.change-username-title,.change-phone-title,.change-address-title{
+    background-color: #F8ECD6;
+    height: 52px;
+    border-radius: 15px;
+    line-height: 52px;
+    padding-left: 20px;
+    color: #5D5D5D;
+    font-size: 15px;
+}
+.change-password-title>p,.change-username-title>p,.change-phone-title>p,.change-address-title>p{
+    font-size: 25px;
+    line-height: 50px;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.password-import,.password-reimport,.username-import,.username-reimport,
+.phone-reimport,.phone-import,.address-reimport,.address-import{
+     margin: 32px 0px 0px 100px;
+     color: #666666;
+     font-size: 14px;
+ }
+.password-import>input,.password-reimport>input,.username-import>input,.username-reimport>input,
+.phone-import>input,.phone-reimport>input,.address-import>input,.address-reimport>input{
+    outline: none;
+    padding-left: 5px;
+    height: 28px;
+    margin-left: 20px;
+}
+.password-submit,.username-submit,.phone-submit,.address-submit{
+    display: block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    text-align: center;
+    width: 85px;
+    height: 26px;
+    margin: 40px auto;
+    border: 1px #E5E5E5 solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: #F8ECD6;
+}

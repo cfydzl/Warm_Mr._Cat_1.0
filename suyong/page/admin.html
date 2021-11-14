@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理</title>
+    <!-- 引入reset.css清楚默认格式 -->
+    <link rel="stylesheet" type="text/css" href="../sum/seset.css"/>
+    <!-- fontcss文件 -->
+    <link rel="stylesheet" type="text/css" href="../sum/font-awesome-4.7.0/css/font-awesome.css"/>
+    <!-- index的css文件 -->
+    <link rel="stylesheet" type="text/css" href="../css/page-admin.css"/>
+    <!-- javascript -->
+    <script src="../sum/jquery/jquery-1.12.4.js"></script>
+    <!-- show.js -->
+    <script src="../js/page-admin.js"></script>
+    <!--    cookie-->
+    <script src="../sum/jquery-cookie-1.4.1/jquery.cookie.js"></script>
+</head>
+<body>
+<!--顶部-->
+<div class="top">
+    <div class="function-title">
+        功能选择
+        <span class="fa fa-bars"></span>
+    </div>
+    <input class="search-text" type="text" placeholder="搜索"/>
+    <div class="fa fa-search"></div>
+    <div class="exit">退出</div>
+    <div class="admin-user"></div>
+    <div class="user-title">管理员</div>
+</div>
+<!--左边功能-->
+<div class="left">
+    <div class="index-info">
+        主页信息
+        <span class="fa fa-angle-right"></span>
+    </div>
+    <div class="menu-info">
+        菜单信息
+        <span class="fa fa-angle-right"></span>
+    </div>
+    <div class="restaurant">
+        餐厅情况
+        <span class="fa fa-angle-right"></span>
+    </div>
+    <div class="desk-book">
+        订桌详情
+        <span class="fa fa-angle-right"></span>
+    </div>
+    <div class="menu-book">
+        订单详情
+        <span class="fa fa-angle-right"></span>
+    </div>
+    <div class="comment-info">
+        评论详情
+        <span class="fa fa-angle-right"></span>
+    </div>
+    <div class="people-info">
+        人员管理
+        <span class="fa fa-angle-right"></span>
+    </div>
+</div>
+<!--主页信息-->
+<div class="show-base">
+    <span class="show-base-title">主页信息</span>
+    <div class="base-menu-sum">
+        <span class="fa fa-area-chart"></span>
+        <div>
+            <span>今日订单</span>
+            <span class="today-menu"></span>
+        </div>
+    </div>
+    <div class="base-menu-today">
+        <span class="fa fa-area-chart"></span>
+        <div>
+            <span>结单总数</span>
+            <span class="win-menu"></span>
+        </div>
+    </div>
+    <div class="base-menu-today-win">
+        <span class="fa fa-area-chart"></span>
+        <div>
+            <span>订单总量</span>
+            <span class="sum-menu"></span>
+        </div>
+    </div>
+    <div class="base-restaurant-sum">
+        <span class="fa fa-bar-chart"></span>
+        <div>
+            <span >今日订桌</span>
+            <span class="today-book"></span>
+        </div>
+    </div>
+    <div class="base-restaurant-today">
+        <span class="fa fa-bar-chart"></span>
+        <div>
+            <span>结桌总数</span>
+            <span class="win-book"></span>
+        </div>
+    </div>
+    <div class="base-restaurant-today-win">
+        <span class="fa fa-bar-chart"></span>
+        <div>
+            <span>订桌总量</span>
+            <span class="sum-book"></span>
+        </div>
+    </div>
+    <div class="base-user">
+        <span class="fa fa-user-o"></span>
+        <div>
+            <span>用户总量</span>
+            <span class="sum-user"></span>
+        </div>
+    </div>
+    <div class="base-comment">
+        <span class="fa fa-commenting-o"></span>
+        <div>
+            <span>反馈评论</span>
+            <span class="sum-comment"></span>
+        </div>
+    </div>
+</div>
+<!--菜品信息-->
+<div class="menu-base" style="display: none">
+    <span class="show-base-title">
+        菜单信息
+        <span class="menu-insert select">菜品添加</span>
+    </span>
+    <div class="menu-list">
+
+    </div>
+</div>
+<!--餐厅信息-->
+<div class="restaurant-base" style="display: none">
+    <span class="show-base-title">
+        餐厅信息
+        <span class="restaurant-base-reduce select">结算</span>
+        <span class="restaurant-base-increase select">就餐</span>
+    </span>
+
+    <div class="restaurant-base-time">
+        <span>类型/时间</span>
+        <span>09:00-11:00</span>
+        <span>11:00-13:00</span>
+        <span>13:00-15:00</span>
+        <span>15:00-17:00</span>
+        <span>17:00-19:00</span>
+        <span>19:00-21:00</span>
+    </div>
+    <div class="two">
+        <span>两人桌</span>
+        <span class="NINE"></span>
+        <span class="ELEVEN"></span>
+        <span class="THIRTEEN"></span>
+        <span class="FIFTEEN"></span>
+        <span class="SEVENTEEN"></span>
+        <span class="NINETEEN"></span>
+    </div>
+    <div class="four">
+        <span>四人桌</span>
+        <span class="NINE"></span>
+        <span class="ELEVEN"></span>
+        <span class="THIRTEEN"></span>
+        <span class="FIFTEEN"></span>
+        <span class="SEVENTEEN"></span>
+        <span class="NINETEEN"></span>
+    </div>
+    <div class="six">
+        <span>六人桌</span>
+        <span class="NINE"></span>
+        <span class="ELEVEN"></span>
+        <span class="THIRTEEN"></span>
+        <span class="FIFTEEN"></span>
+        <span class="SEVENTEEN"></span>
+        <span class="NINETEEN"></span>
+    </div>
+    <div class="eight">
+        <span>大包厢</span>
+        <span class="NINE"></span>
+        <span class="ELEVEN"></span>
+        <span class="THIRTEEN"></span>
+        <span class="FIFTEEN"></span>
+        <span class="SEVENTEEN"></span>
+        <span class="NINETEEN"></span>
+    </div>
+</div>
+<!--订桌-->
+<div class="desk-base" style="display: none">
+    <span class="show-base-title">
+        订桌信息
+    </span>
+    <div class="desk-list">
+    </div>
+</div>
+<!--订单-->
+<div class="book-base" style="display: none">
+    <span class="show-base-title">
+        订单信息
+    </span>
+    <div class="book-list">
+
+    </div>
+</div>
+<!--评论信息-->
+<div class="comment-base" style="display: none">
+    <span class="show-base-title">
+        评论信息
+    </span>
+    <div class="comment-list">
+
+    </div>
+</div>
+<!--用户信息-->
+<div class="user-base" style="display: none">
+    <span class="show-base-title">
+        用户信息
+    </span>
+    <div class="user-list">
+
+    </div>
+</div>
+<!--添加-->
+<div class="mask" style="display: none">
+    <div class="menu-insert-show" style="display: none">
+        <form class="menu-insert-list">
+            <div class="menu-insert-list-title">
+                菜品添加
+                <p class="fa fa-close"></p>
+            </div>
+            <div class="menu-insert-list-name">
+                菜品名称<input type="text" placeholder="请输入菜品名称" autocomplete="off">
+            </div>
+            <div class="menu-insert-list-spices">
+                菜品种类
+                <select placeholder="请选择菜品种类">
+                    <option class="%E6%8E%A8%E8%8D%90">推荐</option>
+                    <option class="%E4%B8%BB%E9%A3%9F">主食</option>
+                    <option class="%E6%97%B6%E7%B4%A0">时素</option>
+                    <option class="%E6%97%B6%E8%8D%A4">时荤</option>
+                    <option class="%E6%B5%93%E6%B1%A4">浓汤</option>
+                    <option class="%E5%B0%8F%E9%A3%9F">小食</option>
+                    <option class="%E9%85%92%E6%B0%B4">酒水</option>
+                </select>
+            </div>
+            <div class="menu-insert-list-price">
+                菜品价格<input type="text" placeholder="请输入菜品价格" autocomplete="off">
+            </div>
+            <div class="menu-insert-list-picture">
+                图片名称<input type="text" placeholder="请与下方一致(包含后缀)" autocomplete="off">
+            </div>
+            <input class="file-submit" type="file" >
+            <span class="menu-submit select" onclick="posttext()">提交</span>
+        </form>
+    </div>
+    <div class="menu-change-show" style="display: none">
+        <form class="menu-change-list">
+            <div class="menu-change-list-title">
+                菜品修改
+                <p class="fa fa-close"></p>
+            </div>
+            <div class="menu-change-list-name">
+                菜品名称<input type="text" placeholder="请输入菜品名称" autocomplete="off">
+            </div>
+            <div class="menu-change-list-spices">
+                菜品种类
+                <select placeholder="请选择菜品种类">
+                    <option class="%E6%8E%A8%E8%8D%90">推荐</option>
+                    <option class="%E4%B8%BB%E9%A3%9F">主食</option>
+                    <option class="%E6%97%B6%E7%B4%A0">时素</option>
+                    <option class="%E6%97%B6%E8%8D%A4">时荤</option>
+                    <option class="%E6%B5%93%E6%B1%A4">浓汤</option>
+                    <option class="%E5%B0%8F%E9%A3%9F">小食</option>
+                    <option class="%E9%85%92%E6%B0%B4">酒水</option>
+                </select>
+            </div>
+            <div class="menu-change-list-price">
+                菜品价格<input type="text" placeholder="请输入菜品价格" autocomplete="off">
+            </div>
+            <div class="MENUID" style="display: none"></div>
+            <span class="menu-change-submit select" onclick="updatetext()">提交</span>
+        </form>
+    </div>
+    <div class="book-select" style="display: none">
+        <div class="book-title">
+            <span class="book-span"></span>
+            <p class="fa fa-close"></p>
+        </div>
+        <div class="book-button-desk">
+            <input class="two" type="radio" name="desk" checked>两人桌
+            <input class="four" type="radio" name="desk">四人桌
+            <input class="six" type="radio" name="desk">六人桌
+            <input class="eight" type="radio" name="desk">大包厢
+        </div>
+        <div class="book-button-time">
+            <input class="NINE" type="radio" name="time" checked>09:00-10:00
+            <input class="ELEVEN" type="radio" name="time">11:00-12:00
+            <input class="THIRTEEN" type="radio" name="time">13:00-14:00
+            <input class="FIFTEEN" type="radio" name="time">15:00-16:00
+            <input class="SEVENTEEN" type="radio" name="time">17:00-18:00
+            <input class="NINETEEN" type="radio" name="time">19:00-20:00
+        </div>
+        <span class="book-pay select">提交</span>
+    </div>
+    <div class="book_menu-select" style="display: none">
+        <div class="book-title">
+            订单信息
+            <span></span>
+            <p class="fa fa-close"></p>
+        </div>
+        <div class="mask-text">
+
+        </div>
+    </div>
+    <div class="user-change-show" style="display: none">
+        <form class="user-change-list">
+            <div class="menu-change-list-title">
+                用户修改
+                <p class="fa fa-close"></p>
+            </div>
+            <div class="user_id" style="display: none"></div>
+            <div class="user-change-list-user">
+                用户账号
+            </div>
+            <div class="user-change-list-password">
+                用户密码<input type="text" placeholder="请输入密码" autocomplete="off">
+            </div>
+            <div class="user-change-list-name">
+                用户名称<input type="text" placeholder="请输入用户名" autocomplete="off">
+            </div>
+            <div class="user-change-list-phone">
+                联系方式<input type="text" placeholder="请输入联系方式" autocomplete="off">
+            </div>
+            <div class="user-change-list-address">
+                外卖地址<input type="text" placeholder="请输入外卖地址" autocomplete="off">
+            </div>
+            <div class="menu-change-list-man">
+
+            </div>
+            <span class="user-change-submit select" onclick="updateuser()">提交</span>
+        </form>
+    </div>
+</div>
+</body>
+</html>

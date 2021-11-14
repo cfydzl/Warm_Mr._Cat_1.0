@@ -1,0 +1,4 @@
+使用说明
+基于wampserver64的php网站
+后端数据库采用sqlserver
+请根据自身apache与数据库的版本进行连接配置

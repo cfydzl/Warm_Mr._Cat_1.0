@@ -1,0 +1,341 @@
+/* 高度塌陷 */
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    width: 1530px;
+    background-color: #F8ECD6;
+    margin: 0px auto;
+}
+.select{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+/*顶端灰色导航*/
+.search-button{
+    cursor: pointer;
+}
+.top-title {
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 164px 0 164px;
+    border-bottom: 1px #eaeaea solid;
+    background-color: #F8ECD6;
+}
+.top-title a:hover
+{
+    color: #826742;
+}
+/*导航栏超链接向右浮动*/
+.top-right {
+    font-size: 13px;
+    float: right;
+    color: #999999;
+    padding-right: 28px;
+    text-decoration: none;
+}
+.top-head{
+    float: left;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #999999;
+}
+.center-name{
+    float: left;
+    padding-left: 25px;
+    font-size: 13px;
+    color: #999999;
+}
+.center-top-name{
+    font-size: 13px;
+    color: #FF9900;
+}
+.exit{
+    margin-left: 10px;
+}
+/*白色导航总体*/
+.top-face {
+    height: 102px;
+    background-color: #FFFAE8;
+    /*background-color: red;*/
+    padding: 22px 164px 0 200px;
+    border-bottom: 1px #eaeaea solid;
+    margin-bottom: 20px;
+}
+.top-search{
+    border: 1px #eaeaea solid;
+    margin-top: 15px;
+    margin-right: 201px;
+    float:  right;
+}
+.search-text{
+    padding-left: 10px;
+    width: 470px;
+    height: 35px;
+    border: none;
+    background-color: #FFFAE8;
+    outline: none;
+}
+.search-button{
+    width: 80px;
+    height: 37px;
+    border: none;
+    background-color: #F8ECD6;
+    float: right;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: #B6B2AC;
+}
+/*图片暖喵*/
+.picture-1 {
+    float: left;
+}
+/*店名*/
+.name {
+    float: left;
+}
+/*暖喵先生*/
+.name-1 {
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 40px 0px 0px 10px;
+}
+/*左边选择栏*/
+.close-left{
+    padding: 33px 25px 0px 32px;
+    width: 165px;
+    height: 593px;
+    float: left;
+    background-color: #FFFAE8;
+    margin-left: 168px;
+    border-radius: 10px;
+}
+.close-left>div{
+    cursor: pointer;
+    margin-bottom: 35px;
+    font-size: 16px;
+    color: #222222;
+}
+.close-left>div>span{
+    float: right;
+    color: #666666;
+}
+/*右边信息*/
+.right-order-information,.right-desk-information,.right-comment-information{
+    padding: 25px 25px 0px 25px;
+    width: 900px;
+    height: 600px;
+    float: right;
+    background-color: #FFFAE8;
+    margin-right: 168px;
+    border-radius: 10px;
+}
+.information-title{
+    margin-bottom: 25px;
+}
+.information-title>div{
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+.order-information-text,.desk-information-text{
+    border-top: 1px #E5E5E5 solid;
+    height: 528px;
+    overflow: auto;
+}
+.comment-information-list{
+    border-top: 1px #E5E5E5 solid;
+    height: 436px;
+    overflow: auto;
+}
+.comment-information-text{
+    width: 886px;
+    background-color: #FFFAE8;
+    border: 1px #E5E5E5 solid;
+    height: 40px;
+    outline: none;
+    font-size: 15px;
+    color: #B6B2AC;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.comment-information-input{
+    width: 100%;
+    height: 40px;
+}
+.comment-information-input>span{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #A9A49E;
+    cursor: pointer;
+}
+.comment-information-submit{
+    line-height: 34px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 4px;
+    float: right;
+    height: 36px;
+    width: 80px;
+    background-color: #FF9945;
+    cursor: pointer;
+}
+.details{
+    border-bottom: 1px #E5E5E5 solid;
+    height: 131px;
+}
+.info-list{
+    position:relative;
+    font-size: 13px;
+    border-bottom: 1px #E5E5E5 solid;
+    height: 63px;
+    color: #B6B2AC;
+}
+.list-text{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.fa-thumbs-o-up{
+    right: 50px;
+}
+.fa-trash-o{
+    right: 10px;
+    cursor: pointer;
+}
+.info-list>span{
+    margin-bottom: 5px;
+    position:absolute;
+    bottom:0px;
+    font-size: 15px;
+}
+.list-time{
+    margin-bottom: 5px;
+    position:absolute;
+    bottom:0px;
+    margin-left: 10px;
+    float: left;
+}
+.details>img{
+    float: left;
+    height: 92px;
+    width: 92px;
+    margin: 20px 15px 0px 0px;
+}
+.details-title{
+    padding-top: 40px;
+}
+.details-type{
+    padding-top: 20px;
+    font-size: 13px;
+    color: #7e8c8d;
+}
+.details-id{
+    cursor: pointer;
+    padding-top: 5px;
+    font-size: 13px;
+    color: #7e8c8d;
+}
+.details-sum{
+    padding-top: 5px;
+    margin-right: 100px;
+    float: right;
+    font-size: 13px;
+    color: #7e8c8d;
+}
+.details-button{
+    margin-top: -10px;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    text-align: center;
+    width: 85px;
+    height: 26px;
+    float: right;
+    border: 1px #E5E5E5 solid;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    background-color: #F8ECD6;
+}
+/*底部信息*/
+.school{
+    margin-left: 168px;
+    height: 100px;
+    width: 1192px;
+    float: left;
+}
+.schoolname{
+    /* background-color: #F8ECD6; */
+    float: left;
+    padding: 35px 0px 0px 35px;
+    font-size: 13px;
+    color: #999999;
+}
+.schoolname-name span{
+    font-size: 30px;
+    font-weight: 900;
+}
+.school-picture{
+    padding-top: 10px;
+}
+.schoolname-name{
+    padding-top: 47px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*订单详细*/
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.book-select{
+    background-color: #FFFAE8;
+    width: 480px;
+    height: 300px;
+    margin: 130px auto 0px;
+    border-radius: 15px;
+}
+.book-title{
+    background-color: #F8ECD6;
+    height: 52px;
+    border-radius: 15px;
+    line-height: 52px;
+    padding-left: 20px;
+    color: #5D5D5D;
+    font-size: 15px;
+}
+.book-title>p{
+    font-size: 25px;
+    line-height: 50px;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.mask-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 188px;
+    border-radius: 15px;
+    overflow: auto;
+}
+.mask-text>div{
+    text-align: center;
+    width: 222px;
+    height:30px;
+    float: left;
+}
+.book-title>span{
+    margin-left: 20px;
+    color: #FF9900;
+}

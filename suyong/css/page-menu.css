@@ -1,0 +1,345 @@
+body{
+    width: 1530px;
+    background-color: #F8ECD6;
+    margin: 0px auto;
+}
+.select{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+/*顶端导航*/
+.top-title {
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 164px 0 164px;
+    background-color: #F8ECD6;
+}
+.top-title a:hover
+{
+    color: #826742;
+}
+/*导航栏超链接向右浮动*/
+.top-right {
+    font-size: 13px;
+    float: right;
+    color: #999999;
+    padding-right: 28px;
+    text-decoration: none;
+}
+.top-head{
+    padding-left: 5px;
+    font-size: 13px;
+    color: #999999;
+}
+/*店面信息*/
+.mid-face {
+    /*background-color: #0092ef;*/
+    background-color: #F8ECD6;
+    padding: 0px 168px 0px 168px;
+    margin-bottom: 40px;
+}
+
+.top-mid-text {
+    padding-left: 5px;
+    font-size: 13px;
+    height: 36px;
+}
+
+.mid-text {
+    height: 290px;
+    background-color: #FFFAE8;
+    /*background-color:red;*/
+    border: 1px #eaeaea solid;
+    border-radius: 15px;
+    padding: 15px 15px;
+}
+
+.sum-picture {
+    float: right;
+    width: 384px;
+}
+
+.small-picture {
+    padding: 10px 0px 0px 0px;
+}
+.mid-text-left-top a{
+    color: #666666;
+    font-size: 30px;
+    font-weight: 900;
+}
+.mid-text-left-top a:hover{
+    color: #826742;
+}
+.mid-text-left-top {
+    width: 748px;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.picture-2 {
+    float: left;
+    margin: 10px 5px 0px 5px;
+}
+
+.name-3 {
+    font-size: 13px;
+    margin: 12px 0px 0px 0px;
+}
+
+.mid-text-left-mid {
+    padding-top: 20px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    height: 100px;
+    width: 752px;
+    border-bottom: 1px #eaeaea solid;
+    border-top: 1px #eaeaea solid;
+}
+
+.mid-text-left-mid a {
+    font-size: 15px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.mid-text-span-1 {
+    margin-left: 5px;
+    font-size: 15px;
+    color: #999999;
+}
+
+.mid-text-span-2 {
+    display: block;
+    margin-top: 16px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #999999;
+}
+
+.mid-text-span-3 {
+    display: block;
+    margin-top: 16px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #999999;
+}
+.mid-text-left-mid a:hover{
+    color: #826742;
+}
+/*菜单信息*/
+.menu{
+    float: left;
+    width: 948px;
+    margin: 5px 0px 44px 168px;
+}
+.menu-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px 0px 9px 5px;
+}
+.menu-information{
+    /*width: 1192px;*/
+    height: 560px;
+    background-color: #FFFAE8;
+    overflow: auto;
+}
+.menu-information-title{
+    float: left;
+    background-color: #F8ECD6;
+    width: 112px;
+}
+.menu-information-title>li{
+    width: 112px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+.title-color{
+    background-color: #FFFAE8;
+}
+.menu-picture{
+    height: 140px;
+    /*background-color: #ffed0d;*/
+    border-bottom: 1px #eaeaea solid;
+    padding-left: 25px;
+}
+/*菜单栏*/
+.menu-picture img{
+    background-color: #ffed0d;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 85px;
+    margin-top: 25px;
+}
+.name-price{
+    margin-top: 25px;
+    float: right;
+    width: 635px;
+    height: 85px;
+}
+.menu-picture-price{
+    color: #FF9900;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.menu-num{
+    float: right;
+}
+.menu-num>div{
+    color: #999999;
+    font-size: 20px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.menu-num>p{
+    color: #999999;
+    margin-top: 3px;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+/*购物车*/
+.car-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 9px;
+    padding-left: 5px;
+}
+.car-sum{
+    float: right;
+    width: 232px;
+    margin-top: 5px;
+    margin-right: 170px;
+}
+.car-text{
+    height: 520px;
+    overflow: auto;
+    background-color: #FFFAE8;
+}
+.car-text>div{
+    height: 40px;
+}
+.car-pay{
+    height: 40px;
+    background-color: #FFFAE8;
+}
+.car-text-name{
+    padding-left: 12px;
+    margin-top: 12px;
+    float: left;
+}
+.car-text-num{
+    float: right;
+}
+.car-text-num>div{
+    color: #999999;
+    float: right;
+    margin-right: 5px;
+    line-height: 40px;
+}
+.car-text-num>p{
+    color: #999999;
+    margin-top: 11px;
+    display: block;
+    float: right;
+    margin-right: 5px;
+}
+.pay-log{
+    margin-top: 5px;
+    width: 35px;
+    color: #FF9900;
+    font-size: 30px;
+    float: left;
+}
+.pay-button{
+    color: white;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    background-color: #FF9900;
+    font-size: 18px;
+    float: right;
+}
+.pay-num{
+    line-height: 40px;
+    font-size: 20px;
+    float: left;
+    color: #999999;
+}
+/*支付*/
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.book-select{
+    background-color: #FFFAE8;
+    width: 480px;
+    height: 300px;
+    margin: 130px auto 0px;
+    border-radius: 15px;
+}
+.book-title{
+    background-color: #F8ECD6;
+    height: 52px;
+    border-radius: 15px;
+    line-height: 52px;
+    padding-left: 20px;
+    color: #5D5D5D;
+    font-size: 15px;
+}
+.book-title>p{
+    font-size: 25px;
+    line-height: 50px;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.book-submit{
+    display: block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    text-align: center;
+    width: 85px;
+    height: 26px;
+    margin: 0px auto;
+    border: 1px #E5E5E5 solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: #F8ECD6;
+}
+.weixn,.zhifubao{
+    color: #5D5D5D;
+    font-size: 15px;
+    display: block;
+    float: left;
+    width: 150px;
+    margin: 5px 0px 5px 50px;
+}
+.book-select>img{
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.into{
+    margin-left: 170px;
+}
+.out{
+    margin-left: 30px;
+}

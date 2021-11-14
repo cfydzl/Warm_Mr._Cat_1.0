@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>堂食信息</title>
+    <!-- 引入reset.css清楚默认格式 -->
+    <link rel="stylesheet" type="text/css" href="../sum/seset.css"/>
+    <!-- fontcss文件 -->
+    <link rel="stylesheet" type="text/css" href="../sum/font-awesome-4.7.0/css/font-awesome.css"/>
+    <!-- restaurant的css文件 -->
+    <link rel="stylesheet" type="text/css" href="../css/page-restaurant.css"/>
+    <!-- javascript -->
+    <script src="../sum/jquery/jquery-1.12.4.js"></script>
+    <!-- restaurant.js -->
+    <script src="../js/page-restaurant.js"></script>
+</head>
+<body>
+<!--导航栏    -->
+<div class="top-title">
+    <a href="author.html" class="top-right">作者简历</a>
+    <a href="center.html" class="top-right">我的中心</a>
+    <a href="order.html" class="top-right">我的订单</a>
+    <a href="menu.html" class="top-right">菜单信息</a>
+    <a href="restaurant.html" class="top-right">堂食订桌</a>
+    <a href="indexshow.html" class="top-right">商家主页</a>
+    <div class="top-head" ;>福建 &nbsp福州 &nbsp福建工程学院</div>
+</div>
+<!--        店面信息-->
+<div class="mid-face">
+    <div class="mid-text">
+        <div class="sum-picture">
+            <img src="../img/2.jpg" width="382" height="216" hspace="10"/>
+            <div class="small-picture">
+                <img src="../img/4.jpg" width="92px" height="52px"/>
+                <img src="../img/5.jpg" width="92px" height="52px"/>
+                <img src="../img/6.jpg" width="92px" height="52px"/>
+                <img src="../img/7.jpg" width="92px" height="52px"/>
+            </div>
+        </div>
+        <div class="mid-text-left-top">
+            <a href="menu.html">暖喵先生（工程学院店）</a>
+        </div>
+        <div class="picture-2">
+            <img src="../img/3.png" width="80px" height="14px"/>
+        </div>
+        <div class="name-3" style="color: #666666;">五星好评</div>
+        <div class="mid-text-left-mid">
+            <span class="mid-text-span-1">地址:</span>
+            <a href="https://map.baidu.com/search/福建工程学院鳝溪校区
+					/@13289111.791157894,2991495.1799999997,17.76z?querytype=s&
+					da_src=shareurl&wd=福建工程学院鳝溪校区&c=255&src=0&pn=0&sug=0&
+					l=12&b=(13048154.62,2777470.77;13146458.62,2820350.77)&from=webmap&biz_forward=%7B"
+               target="_blank">福州市晋安区东三环路999号 福建工程学院 （鳝溪校区）</a>
+            <span class="mid-text-span-2">电话: 0591-22863181</span>
+            <span class="mid-text-span-3">营业时间: 周日至周五 8:20-21:35</span>
+        </div>
+        <img src="../img/8.png" width="100px" height="52px"/>
+    </div>
+</div>
+<!--统计图-->
+<div class="restaurant-show">
+    <div class="restaurant-title">
+        <div style="float:left">
+            <span style="line-height: 60px">当前餐厅剩余桌位信息</span>
+            <a href="javascript:void(0)" class="book-desk">订桌</a>
+        </div>
+        <div class="classify">
+            <span style="background-color: #EAC581">大包厢</span>
+            <span style="background-color: #EDCF96">六人桌</span>
+            <span style="background-color: #F1D9AC">四人桌</span>
+            <span style="background-color: #F5E3C2">两人桌</span>
+        </div>
+    </div>
+    <svg id="svg-show" xmlns="http://www.w3.org/2000/svg" width="100%" height="86%">
+        <g transform="translate(10,0)" fill="#826742">
+            <text y="20" font-size="10">座</text>
+            <text y="55">6</text>
+            <text y="100">5</text>
+            <text y="145">4</text>
+            <text y="190">3</text>
+            <text y="235">2</text>
+            <text y="280">1</text>
+            <text y="325">0</text>
+        </g>
+        <g transform="translate(0,340)" fill="#826742">
+            <text x="30"  font-size="10">时间/2小时</text>
+            <text x="100">9:00-11:00</text>
+            <text x="280">11:00-13:00</text>
+            <text x="460">13:00-15:00</text>
+            <text x="640">15:00-17:00</text>
+            <text x="820">17:00-19:00</text>
+            <text x="1000">19:00-21:00</text>
+        </g>
+        <g stroke-width="1" stroke="#E8E8E8">
+            <line x1="30" y1="50" x2="1170" y2="50"></line>
+            <line x1="30" y1="95" x2="1170" y2="95"></line>
+            <line x1="30" y1="140" x2="1170" y2="140"></line>
+            <line x1="30" y1="185" x2="1170" y2="185"></line>
+            <line x1="30" y1="230" x2="1170" y2="230"></line>
+            <line x1="30" y1="275" x2="1170" y2="275"></line>
+            <line x1="30" y1="320" x2="1170" y2="320"></line>
+        </g>
+        <g  id="two" fill="#F5E3C2" transform="translate(0,0)">
+        </g>
+        <g  id="four" fill="#F1D9AC" transform="translate(20,0)">
+        </g>
+        <g  id="six" fill="#EDCF96" transform="translate(40,0)">
+        </g>
+        <g  id="eight" fill="#EAC581" transform="translate(60,0)">
+        </g>
+    </svg>
+<!--    统计图ajax-->
+    <script src="../js/svg-restaurant.js"></script>
+</div>
+<!--预定餐桌-->
+<div class="book-show" style="display: none">
+    <div class="book-select">
+        <div class="book-title">
+            餐桌预定
+            <p class="fa fa-close"></p>
+        </div>
+        <div class="book-button-desk">
+            <input class="two" type="radio" name="desk" checked>两人桌
+            <input class="four" type="radio" name="desk">四人桌
+            <input class="six" type="radio" name="desk">六人桌
+            <input class="eight" type="radio" name="desk">大包厢
+        </div>
+        <div class="book-button-time">
+            <input class="NINE" type="radio" name="time" checked>09:00-10:00
+            <input class="ELEVEN" type="radio" name="time">11:00-12:00
+            <input class="THIRTEEN" type="radio" name="time">13:00-14:00
+            <input class="FIFTEEN" type="radio" name="time">15:00-16:00
+            <input class="SEVENTEEN" type="radio" name="time">17:00-18:00
+            <input class="NINETEEN" type="radio" name="time">19:00-20:00
+        </div>
+        <span class="book-pay select">支付</span>
+    </div>
+</div>
+<div class="mask" style="display: none">
+    <div class="book-select">
+        <div class="book-title">
+            订桌支付
+            <p class="fa fa-close"></p>
+        </div>
+        <span class="weixn">微信</span>
+        <span class="zhifubao">&nbsp支付宝</span>
+        <img src="../img/微信支付.png">
+        <img src="../img/支付宝支付.jpg">
+        <span class="book-submit select">提交</span>
+    </div>
+</div>
+</body>
+</html>

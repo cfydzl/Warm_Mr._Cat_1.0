@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的中心</title>
+    <!-- 引入reset.css清楚默认格式 -->
+    <link rel="stylesheet" type="text/css" href="../sum/seset.css"/>
+    <!-- fontcss文件 -->
+    <link rel="stylesheet" type="text/css" href="../sum/font-awesome-4.7.0/css/font-awesome.css"/>
+    <!-- center的css文件 -->
+    <link rel="stylesheet" type="text/css" href="../css/page-center.css"/>
+    <!-- javascript -->
+    <script src="../sum/jquery/jquery-1.12.4.js"></script>
+    <!-- center.js -->
+    <script src="../js/page-center.js"></script>
+</head>
+<body>
+<!--顶端标题-->
+<div class="top-title">
+    <a href="author.html" class="top-right">作者简历</a>
+    <a href="center.html" class="top-right">我的中心</a>
+    <a href="order.html" class="top-right">我的订单</a>
+    <a href="menu.html" class="top-right">菜单信息</a>
+    <a href="restaurant.html" class="top-right">堂食订桌</a>
+    <a href="indexshow.html" class="top-right">商家主页</a>
+    <div class="top-head" ;>福建 &nbsp福州 &nbsp福建工程学院</div>
+    <div class="center-name">
+        <span class="center-top-name"></span>
+        <a href="javascript:void(0)" class="exit">退出</a>
+    </div>
+</div>
+<!--顶端的主要内容-->
+<div class="top-face">
+    <div class="picture-1">
+        <img src="../img/1.png" width="80px" height="80px"/>
+    </div>
+    <div class="name">
+        <span class="name-1">暖喵先生</span>
+    </div>
+    <div class="top-search">
+        <form class="search" action="#">
+            <input class="search-text" type="text" placeholder="搜索商家/菜品"/>
+            <button class="search-button">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
+</div>
+<!--左边选择栏-->
+<div class="close-left">
+    <div class="close-personal-information select">个人信息<span class="fa fa-angle-right"></span></div>
+    <div class="close-restaurant-information select">堂食说明<span class="fa fa-angle-right"></span></div>
+    <div class="close-menu-information select">订单说明<span class="fa fa-angle-right"></span></div>
+    <div class="close-out-information select">外卖说明<span class="fa fa-angle-right"></span></div>
+    <div class="close-contact-information select">联系商家<span class="fa fa-angle-right"></span></div>
+</div>
+<!--右边信息-->
+<!--联系商家-->
+<div class="contact-information" style="display: none">
+    <div class="information-title" style="margin-bottom: 50px">
+        <div>联系商家</div>
+    </div>
+    <span style="padding-left: 60px">
+        福建工程学院
+    </span>
+    <span style="padding-left: 60px">
+        互联网经贸学院
+    </span>
+    <span style="padding-left: 60px">
+        信息管理与信息系统
+    </span>
+    <span style="padding-left: 60px">
+        1804南汐：3188909426
+    </span>
+</div>
+<!--外卖说明-->
+<div class="out-information" style="display: none">
+    <div class="information-title" style="margin-bottom: 50px">
+        <div>外卖说明</div>
+    </div>
+    <span style="padding-left: 60px">
+        1. &nbsp本餐厅位于福建省-福州市-晋安区-东三环路999号-福建工程学院（鳝溪校区）
+    </span>
+    <span style="padding-left: 60px">
+        2. &nbsp本餐厅对于福州三环内顾客下单提供免费配送服务，三环外顾客一律不以接单
+    </span>
+    <span style="padding-left: 60px">
+        3. &nbsp晋安区，台江区配送时间为40分钟，鼓楼区，仓山区配送时间为60分钟
+    </span>
+    <span style="padding-left: 60px">
+        4. &nbsp凡是上下班车流量高峰期，配送时间浮动为半小时
+    </span>
+    <span style="padding-left: 60px">
+        5. &nbsp顾客可根据配送员信息进行配送单状态查询
+    </span>
+    <span style="padding-left: 60px">
+        6. &nbsp以上一切解释权，最终归本店所有
+    </span>
+</div>
+<!--订单说明-->
+<div class="menu-information" style="display: none">
+    <div class="information-title" style="margin-bottom: 50px">
+        <div>订单说明</div>
+    </div>
+    <span style="padding-left: 60px">
+        1. &nbsp顾客可以在当前的网站导航栏中点击菜单信息查看当前的餐厅菜单信息并加入购物车进行下单，该页面会显示当
+    </span>
+    <span>
+        前餐厅的各种不同的分类菜单，分别有店家推荐，主食，时素，时荤，浓汤，小食，酒水，顾客可以点击加减号对订单
+    </span>
+    <span>
+        进行修改，顾客选择完之后就可以下单后前往个人订单进行结算
+    </span>
+    <span style="padding-left: 60px">
+        2. &nbsp结算时候请选择是堂食还是外卖，若是堂食请进行堂食订桌，若无订桌前往餐厅就餐时本餐厅不保证顾客就餐时
+    </span>
+    <span>
+        期一定有空位，若已订桌，本餐厅会自动匹配用户的订单，进行堂食桌位的安排，在就餐时期可以之间前往就餐，无需
+    </span>
+    <span>
+        等待,若为外卖下单，本餐厅会安排派送员进行配送，个人订单也会相应显示配送状态与配送员电话
+    </span>
+    <span style="padding-left: 60px">
+        3. &nbsp凡是消费者下单成功，若想退单，必须联系商家，商家会根据当前订单的完成情况进行部分订单的退款，退单时
+    </span>
+    <span>
+        会收取10%的手续费
+    </span>
+    <span style="padding-left: 60px">
+        4. &nbsp以上一切解释权，最终归本店所有
+    </span>
+</div>
+<!--堂食说明-->
+<div class="restaurant-information" style="display: none">
+    <div class="information-title" style="margin-bottom: 50px">
+        <div>堂食说明</div>
+    </div>
+    <span style="padding-left: 60px">
+        1. &nbsp顾客可以在当前的网站导航栏中点击堂食信息查看当前的堂食订桌信息，该页面会显示当前餐厅各个时段下的四
+    </span>
+    <span>
+        种不同桌位，分别是两人桌，四人桌，六人桌，以及大包厢，大包厢可容纳8-12人，若需要前往本餐厅就餐，可提前在
+    </span>
+    <span>
+        本网站预定今天时间内的座位，每次就餐时间段默认为两小时，若当无餐厅座位时，可以选择外卖业务
+    </span>
+    <span style="padding-left: 60px">
+        2. &nbsp凡是消费者订桌成功，在结算订单之后，距离就餐时间大于两小时退订可以返回100%押金，距离就餐时间小于
+    </span>
+    <span>
+        两小时大于一小时退订可以返回100%押金，距离就餐时间小于一小时退订可以返回50%押金，订桌价格均为60，用餐
+    </span>
+    <span>后可退还</span>
+    <span style="padding-left: 60px">
+        3. &nbsp抵用券为堂食专属，不适用于外卖业务，每个账号每天只限购一种抵用券，在本网站页面支付之后请保存支付凭
+    </span>
+    <span>
+        证，前往本店就餐结算时可以出示使用，购买生日抵用券者须出示身份证或个人生日证明相关的证件
+    </span>
+    <span style="padding-left: 60px">
+        4. &nbsp在国家法定节假日，凡在本餐厅就餐，均享受九折优惠，不包括外卖且抵用券不能与节假日优惠同时使用
+    </span>
+    <span style="padding-left: 60px">
+        5. &nbsp以上一切解释权，最终归本店所有
+    </span>
+</div>
+<!--个人信息-->
+<div class="personal-information">
+    <div class="information-title">
+        <div>个人信息</div>
+        <p>账户设置</p>
+    </div>
+    <div class="information-username">
+        <span class="username-button"></span>
+        <div class="username-information"></div>
+        <div class="username-title">账户</div>
+    </div>
+    <div class="information-password">
+        <span class="password-button select">修改</span>
+        <div class="password-information"></div>
+        <div class="password-title">密码</div>
+    </div>
+    <div class="information-name">
+        <span class="name-button select">修改</span>
+        <div class="name-information"></div>
+        <div class="name-title">用户名</div>
+    </div>
+    <div class="information-phone">
+        <span class="phone-button select">修改</span>
+        <div class="phone-information"></div>
+        <div class="phone-title">联系方式</div>
+    </div>
+    <div class="information-address">
+        <span class="address-button select">修改</span>
+        <div class="address-information"></div>
+        <div class="address-title">外卖地址</div>
+    </div>
+</div>
+<!--底部标栏-->
+<div class="school">
+    <div class="schoolname">
+        <div>福建工程学院</div>
+        <div>互联网经贸学院</div>
+        <div>信息管理与信息系统</div>
+    </div>
+    <div class="schoolname-name" style="float: right;">
+				<span>暖喵先生</span>
+    </div>
+    <div class="school-picture" style="float: right;">
+        <img src="../img/14.png" width="80px" height="80px"/>
+    </div>
+</div>
+<!--修改浮窗-->
+<div class="change-show" style="display: none">
+    <div class="change-password" style="display: none">
+        <div class="change-password-title">
+            修改密码
+            <p class="fa fa-close"></p>
+        </div>
+        <div class="password-import">
+            请输入新密码<input type="password" placeholder="请输入新密码" autocomplete="off">
+        </div>
+        <div class="password-reimport">
+            请确认新密码<input type="password" placeholder="请确认新密码" autocomplete="off">
+        </div>
+        <span class="password-submit select">提交</span>
+    </div>
+    <div class="change-username" style="display: none">
+        <div class="change-username-title">
+            修改用户名
+            <p class="fa fa-close"></p>
+        </div>
+        <div class="username-import">
+            <div></div>
+        </div>
+        <div class="username-reimport">
+            请输入新用户名<input type="text" placeholder="请输入新用户名" autocomplete="off">
+        </div>
+        <span class="username-submit select">提交</span>
+    </div>
+    <div class="change-phone" style="display: none">
+        <div class="change-phone-title">
+            修改联系方式
+            <p class="fa fa-close"></p>
+        </div>
+        <div class="phone-import">
+            <div></div>
+        </div>
+        <div class="phone-reimport">
+            请输入新联系方式<input type="text" placeholder="请输入新联系方式" autocomplete="off">
+        </div>
+        <span class="phone-submit select">提交</span>
+    </div>
+    <div class="change-address" style="display: none">
+        <div class="change-address-title">
+            修改外卖地址
+            <p class="fa fa-close"></p>
+        </div>
+        <div class="address-import">
+            <div></div>
+        </div>
+        <div class="address-reimport">
+            请输入新外卖地址<input type="text" placeholder="请输入新外卖地址" autocomplete="off">
+        </div>
+        <span class="address-submit select">提交</span>
+    </div>
+</div>
+</body>
+</html>

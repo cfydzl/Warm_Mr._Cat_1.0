@@ -1,0 +1,509 @@
+/*网页初始化*/
+clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    width: 1530px;
+    background-color: #F8ECD6;
+    color: #666666;
+    margin: 0px auto;
+}
+.select{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+
+/*顶部*/
+.top{
+    width: 100%;
+    height: 56px;
+    background-color: #F1D9AC;
+    line-height: 50px;
+}
+.function-title{
+    width: 222px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 20px;
+    padding-left: 18px;
+    background-color: #EAC581;
+    float: left;
+}
+.function-title>span{
+    float: right;
+    line-height: 56px;
+    font-size: 20px;
+    margin-right: 18px;
+}
+.top>input{
+    float: left;
+    width: 384px;
+    height: 36px;
+    border:none;
+    padding-left: 15px;
+    outline: none;
+    background-color: #EAC581;
+    margin-left: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+.fa-search{
+    float: left;
+    width: 38px;
+    height: 38px;
+    background-color: #EAC581;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 0px 5px 5px 0px;
+}
+.exit,.admin-user,.user-title{
+    padding-top: 2px;
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.admin-user{
+    color: #FF9900;
+}
+.exit{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+/*左边选择*/
+.left{
+    width: 240px;
+    float: left;
+    height: 663px;
+    background-color: #F1D9AC;
+}
+.left>div{
+    width: 215px;
+    height: 56px;
+    line-height: 56px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.left>div:hover{
+    background-color: #EDCF96;
+}
+.left>div>span{
+    line-height: 56px;
+    float: right;
+    font-size: 18px;
+    margin-right: 18px;
+}
+
+
+/*右边中部显示*/
+/*基本信息*/
+.show-base,.menu-base,.restaurant-base,.desk-base,.book-base,.comment-base,.user-base{
+    height: 663px;
+    width: 1290px;
+    float: right;
+    background-color: #F5E3C2;
+}
+.show-base-title{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 1220px;
+}
+.menu-insert,.restaurant-base-increase,.restaurant-base-reduce{
+    margin-top: -7px;
+    display: block;
+    float: right;
+    margin-left: 20px;
+    height: 36px;
+    width: 70px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #EDCF96;
+    text-align: center;
+    line-height: 32px;
+}
+.show-base>div{
+    margin-top: 50px;
+    float: left;
+    margin-left: 80px;
+    width: 284px;
+    height: 96px;
+    background-color: #F1D9AC;
+    border-radius: 8px;
+}
+.show-base>div>span{
+    line-height: 64px;
+    border-radius: 8px;
+    margin-left: 14px;
+    margin-top: 14px;
+    text-align: center;
+    background-color: #EDCF96;
+    font-size: 34px;
+    width: 68px;
+    height: 68px;
+    float: left;
+}
+.show-base>div>div{
+    margin-top: 25px;
+    margin-left: 14px;
+    float:left;
+}
+.show-base>div>div>span{
+    display: block;
+    margin-bottom:  10px;
+    width: 150px;
+}
+
+
+
+/*菜单*/
+.menu-list,.desk-list,.book-list,.comment-list,.user-list{
+    height: 550px;
+    margin: 30px;
+    width: 1230px;
+    background-color: #F1D9AC;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+}
+.menu-list>div,.desk-list>div,.book-list>div,.comment-list>div,.user-list>div{
+    border: 1px #F5E3C2 solid;
+    line-height: 48px;
+    height: 50px;
+}
+.user-list>div{
+    border: 1px #F5E3C2 solid;
+    line-height: 48px;
+    height: 100px;
+}
+.user-list>div:hover,.menu-list>div:hover,.desk-list>div:hover,.book-list>div:hover,.comment-list>div:hover,.user-list>div:hover{
+    background-color: #EDCF96;
+}
+.USER_NAME,.USER_USERNAME,.USER_PASSWORD,.USER_PHONE{
+    display: block;
+    float: left;
+    width: 390px;
+    height: 50px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+    margin-left: 15px;
+}
+.USER_ADDRESS{
+    display: block;
+    float: left;
+    width: 585px;
+    height: 50px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+    margin-left: 15px;
+}
+.BOOK_ID,.USERNAME,.MENU_ID,.MENU_USERNAME{
+    display: block;
+    float: left;
+    width: 300px;
+    height: 50px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+    margin-left: 15px;
+}
+.COMMENT_TEXT{
+    display: block;
+    float: left;
+    width: 400px;
+    height: 50px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+    margin-left: 15px;
+}
+.TYPE,.TIME,.MENU_NUM,.MENU_TYPE,.COMMENT_NAME,.COMMENT_DING,.COMMENT_TIME{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 50px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+    margin-left: 15px;
+}
+.fa-check-square-o,.fa-buysellads{
+    margin-top: 20px;
+    float: right;
+    font-size: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.menu-list>div>span{
+    margin-left: 24px;
+}
+.comment-list>div>.fa-times{
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+    cursor: pointer;
+}
+.user-list>div>.fa-times,.user-list>div>.fa-file-text-o{
+    margin-top: 15px;
+    margin-right: 15px;
+    float: right;
+    cursor: pointer;
+}
+.change-div{
+    float: right;
+}
+.change-div>span{
+    font-size: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.NAME{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 50px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow-x:auto;
+}
+.SPECIES{
+    display: block;
+    float: left;
+    height: 50px;
+    width: 200px;
+}
+.PRICE{
+    display: block;
+    float: left;
+    height: 50px;
+    width: 200px;
+}
+
+
+
+/*显示修改区*/
+.text{
+    width: 1290px;
+    height: 459px;
+    float: right;
+    background-color: #F9EDD8;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+}
+/*餐厅信息*/
+.restaurant-base-time{
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #F1D9AC;
+    height: 50px;
+    width: 1230px;
+}
+.restaurant-base-time>span{
+    display: block;
+    float: left;
+    width: 175px;
+    text-align: center;
+    line-height: 48px;
+}
+.two,.four,.six,.eight{
+    margin-left: 30px;
+    background-color: #F5E3C2;
+    height: 50px;
+    width: 1230px;
+    border-bottom: 1px #F1D9AC solid;
+}
+.two>span,.four>span,.six>span,.eight>span{
+    display: block;
+    float: left;
+    width: 175px;
+    text-align: center;
+    line-height: 48px;
+}
+.two:hover,.four:hover,.six:hover,.eight:hover{
+    background-color: #F1D9AC;
+}
+/*隐藏浮窗*/
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu-insert-list,.menu-change-list,.user-change-list{
+    background-color: #FFFAE8;
+    width: 480px;
+    height: 480px;
+    margin: 130px auto 0px;
+    border-radius: 15px;
+}
+.menu-change-list{
+    height: 360px;
+}
+.user-change-list{
+    height: 530px;
+}
+.menu-insert-list-title,.menu-change-list-title,.menu-change-list-title{
+    background-color: #F8ECD6;
+    height: 52px;
+    border-radius: 15px;
+    line-height: 52px;
+    padding-left: 20px;
+    color: #5D5D5D;
+    font-size: 15px;
+}
+.menu-insert-list-title>p,.menu-change-list-title>p,.menu-change-list-title>p{
+    font-size: 25px;
+    line-height: 50px;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.menu-insert-list-name,.menu-insert-list-spices,
+.menu-insert-list-picture,.menu-insert-list-price,
+.menu-change-list-name,.menu-change-list-spices,
+.menu-change-list-picture,.menu-change-list-price
+,.user-change-list-user,.user-change-list-password
+,.user-change-list-name,.user-change-list-phone
+,.user-change-list-address,.menu-change-list-man{
+    margin: 32px 0px 0px 100px;
+    color: #666666;
+    font-size: 14px;
+}
+.menu-insert-list-name>input,
+.menu-insert-list-picture>input,.menu-insert-list-price>input,
+.menu-change-list-name>input,
+.menu-change-list-picture>input,.menu-change-list-price>input
+,.user-change-list-password>input,.user-change-list-name>input
+,.user-change-list-phone>input,.user-change-list-address>input{
+    outline: none;
+    padding-left: 5px;
+    height: 28px;
+    margin-left: 20px;
+}
+.menu-insert-list-spices>select,.menu-change-list-spices>select,.menu-change-list-man>select{
+    margin-left: 16px;
+    width: 165px;
+    height: 34px;
+    outline: none;
+}
+.menu-submit,.menu-change-submit,.user-change-submit{
+    display: block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    text-align: center;
+    width: 85px;
+    height: 26px;
+    margin: 40px auto;
+    border: 1px #E5E5E5 solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: #F8ECD6;
+}
+.file-submit{
+    margin: 32px 0px 0px 150px;
+}
+/*订桌显示*/
+.book-select,.book_menu-select{
+    background-color: #FFFAE8;
+    width: 480px;
+    height: 300px;
+    margin: 130px auto 0px;
+    border-radius: 15px;
+}
+.mask-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 188px;
+    border-radius: 15px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+}
+.mask-text>div{
+    text-align: center;
+    width: 222px;
+    height:30px;
+    float: left;
+}
+.book-title{
+    background-color: #F8ECD6;
+    height: 52px;
+    border-radius: 15px;
+    line-height: 52px;
+    padding-left: 20px;
+    color: #5D5D5D;
+    font-size: 15px;
+}
+.book-title>p{
+    font-size: 25px;
+    line-height: 50px;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.book-button-desk {
+    font-size: 15px;
+    color: #5D5D5D;
+    margin: 30px 0px 35px 0px;
+}
+.book-button-desk>input{
+    margin-left: 44px;
+    height: 13px;
+    width: 13px;
+}
+.book-button-time>input{
+    margin-left: 42px;
+    margin-bottom: 35px;
+}
+.book-button-time{
+    font-size: 15px;
+    color: #5D5D5D;
+}
+.book-submit{
+    display: block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    text-align: center;
+    width: 85px;
+    height: 26px;
+    margin: 0px auto;
+    border: 1px #E5E5E5 solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: #F8ECD6;
+}
+.book-pay{
+    display: block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    text-align: center;
+    width: 85px;
+    height: 26px;
+    margin: 0px auto;
+    border: 1px #E5E5E5 solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: #F8ECD6;
+}

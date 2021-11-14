@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c50ea454-1522-49a4-810f-5c7ae23dfa87" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a1tuHL5kRBFzmIXpUcCcIEM24P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlserver" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\suyong\page" />
+      <recent name="D:\wamp64\www\suyong" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\suyong\API" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5e9c0387" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c50ea454-1522-49a4-810f-5c7ae23dfa87" name="默认的" comment="" />
+      <created>1585915148575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585915148575</updated>
+      <workItem from="1585915149916" duration="69000" />
+      <workItem from="1585915325699" duration="597000" />
+      <workItem from="1585987251483" duration="695000" />
+      <workItem from="1585990270979" duration="8214000" />
+      <workItem from="1585999928781" duration="42357000" />
+      <workItem from="1586328309055" duration="68490000" />
+      <workItem from="1586595254887" duration="80633000" />
+      <workItem from="1586942527765" duration="26538000" />
+      <workItem from="1587098667305" duration="16548000" />
+      <workItem from="1587178527629" duration="2414000" />
+      <workItem from="1587190787155" duration="22863000" />
+      <workItem from="1587289257672" duration="5563000" />
+      <workItem from="1587297096878" duration="16008000" />
+      <workItem from="1587455731018" duration="104877000" />
+      <workItem from="1587872959657" duration="23287000" />
+      <workItem from="1588239134332" duration="11000" />
+      <workItem from="1588239270198" duration="630000" />
+      <workItem from="1588240055428" duration="601000" />
+      <workItem from="1588266711070" duration="436000" />
+      <workItem from="1588836900229" duration="1000" />
+      <workItem from="1588837006741" duration="77000" />
+      <workItem from="1588837193231" duration="219000" />
+      <workItem from="1588837742977" duration="3000" />
+      <workItem from="1588846666878" duration="605000" />
+      <workItem from="1588847680596" duration="18000" />
+      <workItem from="1588847746894" duration="36000" />
+      <workItem from="1588847797305" duration="23000" />
+      <workItem from="1588847851013" duration="828000" />
+      <workItem from="1588849384625" duration="246000" />
+      <workItem from="1588849874807" duration="8287000" />
+      <workItem from="1588933197426" duration="2515000" />
+      <workItem from="1588940647219" duration="2781000" />
+      <workItem from="1588993077671" duration="2937000" />
+      <workItem from="1589024637897" duration="23000" />
+      <workItem from="1589168153822" duration="5278000" />
+      <workItem from="1589178705049" duration="6000" />
+      <workItem from="1589178941469" duration="538000" />
+      <workItem from="1589179971292" duration="2589000" />
+      <workItem from="1589337325382" duration="2273000" />
+      <workItem from="1589343253702" duration="9000" />
+      <workItem from="1589344787655" duration="21000" />
+      <workItem from="1589356489624" duration="965000" />
+      <workItem from="1589359978722" duration="6665000" />
+      <workItem from="1589381899997" duration="96000" />
+      <workItem from="1589436409459" duration="6748000" />
+      <workItem from="1589461528199" duration="142000" />
+      <workItem from="1589544414538" duration="313000" />
+      <workItem from="1589610997562" duration="1727000" />
+      <workItem from="1589786832148" duration="855000" />
+      <workItem from="1589804861047" duration="111000" />
+      <workItem from="1589879417761" duration="47000" />
+      <workItem from="1590136245886" duration="2921000" />
+      <workItem from="1590985417265" duration="53927000" />
+      <workItem from="1591110507366" duration="31000" />
+      <workItem from="1591110611787" duration="1714000" />
+      <workItem from="1591158213745" duration="23000" />
+      <workItem from="1591158481710" duration="7000" />
+      <workItem from="1591159054476" duration="3659000" />
+      <workItem from="1591632142086" duration="405000" />
+      <workItem from="1591784653191" duration="290000" />
+      <workItem from="1591785498651" duration="2059000" />
+      <workItem from="1591788130155" duration="612000" />
+      <workItem from="1591799276419" duration="226000" />
+      <workItem from="1592646682407" duration="4000" />
+      <workItem from="1592646766678" duration="133000" />
+      <workItem from="1610592900084" duration="76000" />
+      <workItem from="1619185489566" duration="8000" />
+      <workItem from="1619417342126" duration="2203000" />
+      <workItem from="1619435100082" duration="3593000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1619435110464">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1619435110464" />
+  </component>
+</project>

@@ -1,0 +1,373 @@
+/* 高度塌陷 */
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    width: 1530px;
+    background-color: #F8ECD6;
+    margin: 0px auto;
+}
+.select{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+/*顶端灰色导航*/
+.search-button{
+    cursor: pointer;
+}
+.top-title {
+    width: 1202px;
+    position: fixed;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 164px 0 164px;
+    background-color: #F8ECD6;
+}
+.top-title a:hover
+{
+    color: #826742;
+}
+/*导航栏超链接向右浮动*/
+.top-right {
+    font-size: 13px;
+    float: right;
+    color: #999999;
+    padding-right: 28px;
+    text-decoration: none;
+}
+.top-head{
+    float: left;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #999999;
+}
+.center-name{
+    float: left;
+    padding-left: 25px;
+    font-size: 13px;
+    color: #999999;
+}
+.center-top-name{
+    font-size: 13px;
+    color: #FF9900;
+}
+.exit{
+    margin-left: 10px;
+}
+/*左边固定栏*/
+.show{
+    width: 305px;
+    height: 100%;
+    background-color: #F8ECD6;
+    position: fixed;
+    top: 40px;
+    color: #9999A9;
+}
+.head-picture{
+    width: 133px;
+    height: 133px;
+    border-radius: 66px;
+    margin-top: 40px;
+    margin-left: 85px;
+}
+.name{
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+.class{
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.close{
+    margin-top: 55px;
+    width: 248px;
+    height: 252px;
+    margin-left: 25px;
+}
+.close>div{
+    height: 42px;
+    line-height: 42px;
+    border-radius: 5px;
+}
+.close>div:hover{
+    background-color: #FFFAE8;
+    cursor: pointer;
+}
+.close>div>span{
+    text-align: center;
+    width: 15px;
+    margin-left: 12px;
+    margin-right:16px ;
+}
+/*右边显示*/
+.school{
+    color: #9999A9;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: right;
+    width: 1223px;
+    background-color: #FFFAE8;
+    margin-bottom: 60px;
+}
+.school-picture{
+    border-top-left-radius: 20px;
+    background: url("../img/学校.jpg");
+    width: 1223px;
+    height:680px;
+    background-size: 1223px 680px;
+}
+.about-me,.history,.thing,.swf,.information,.introduce{
+    margin-top: 70px;
+    margin-left: 75px;
+}
+.picture{
+    margin-top: 70px;
+    margin-left: 75px;
+    padding-bottom: 25px;
+}
+.swf{
+    padding-left: 15px;
+}
+.bottom-text{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.bottom-text>div{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.about-me>span{
+    margin-bottom: 25px;
+    margin-left: 25px;
+    display: block;
+    float: left;
+    width: 500px;
+    font-size: 17px;
+}
+.about-me>span>a{
+    width: 30px;
+}
+.his-text>span{
+    display: block;
+    float: left;
+    font-size: 17px;
+    width: 250px;
+}
+.his-text>div{
+    padding-top: 40px;
+    font-size: 17px;
+}
+.his-text>div>div{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+.thing>div{
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.thing>div>div{
+    margin-top: 25px;
+}
+.introduce>div>div{
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+/*循环窗口*/
+.cycle{
+    margin-left: 25px;
+    width: 990px;
+    height: 165px;
+    overflow: hidden;
+}
+.cycle>ul{
+    list-style: none;
+    width: 3960px;
+    height: 165px;
+    background: black;
+}
+.cycle>ul>li>img{
+    width: 330px;
+    height: 165px;
+}
+.cycle>ul>li{
+    cursor: pointer;
+    float: left;
+}
+/*swf动图*/
+.swf>embed{
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+/*音乐播放器*/
+.music{
+    width: 1225px;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 305px;
+    background: #F1F3F4;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.music-button{
+    float: left;
+    padding-left: 28px;
+    width: 220px;
+}
+.fa-step-backward{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #595959;
+    margin-top: 14px;
+    border: 1px #595959 solid;
+    cursor: pointer;
+}
+.fa-pause{
+    width: 39px;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #595959;
+    margin-top: 10px;
+    border: 1px #595959 solid;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.fa-play{
+    width: 38px;
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #595959;
+    margin-top: 10px;
+    border: 1px #595959 solid;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 18px;
+    padding-left: 1px;
+}
+.fa-stop{
+    width: 31px;
+    height: 32px;
+    border-radius: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #595959;
+    margin-top: 14px;
+    border: 1px #595959 solid;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.fa-step-forward{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #595959;
+    margin-top: 14px;
+    border: 1px #595959 solid;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.progress{
+    padding-top: 4px;
+    overflow: hidden;
+    float: left;
+    width: 570px;
+}
+.line{
+    margin-left: -40px;
+}
+.fa-align-left{
+    float: left;
+    cursor: pointer;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-top: 22px;
+}
+.list-name{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+/*歌曲菜单*/
+.music-list{
+    position: fixed;
+    float: right;
+    margin-left: 1200px;
+    top: 40px;
+    width: 330px;
+    height: 619px;
+    background: #F5E3C2;
+}
+.play-list{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 24px;
+}
+.music-num{
+    margin-top: 8px;
+    font-size: 15px;
+    margin-left: 24px;
+}
+.fa-close{
+    margin: 10px 10px 0px 0px;
+    font-size: 18px;
+    color: #595959;
+    cursor: pointer;
+}
+.music-list-name{
+    height: 547px;
+    overflow: auto;
+    color: #595959;
+}
+.music-list-name>div{
+    height: 44px;
+    line-height: 44px;
+    padding-left: 15px;
+}
+.music-list-name>div:hover{
+    background: #F8ECD6;
+}
+.music-list-name>div>div{
+    float: right;
+    width: 14px;
+    height: 16px;
+    border-radius: 8px;
+    line-height: 16px;
+    text-align: center;
+    color: #595959;
+    border: 1px #595959 solid;
+    cursor: pointer;
+    font-size: 8px;
+    padding-left: 2px;
+    margin-right: 12px;
+    margin-top: 13px;
+}
+.fa-volume-up{
+    width: 14px;
+    height: 16px;
+    color: #595959;
+    font-size: 16px;
+    margin-left: 5px;
+}

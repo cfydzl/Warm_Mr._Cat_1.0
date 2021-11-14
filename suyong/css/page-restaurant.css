@@ -1,0 +1,266 @@
+body{
+    width: 1530px;
+    background-color: #F8ECD6;
+    margin: 0px auto;
+}
+.select{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+/*顶端导航*/
+.top-title {
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 164px 0 164px;
+    background-color: #F8ECD6;
+}
+.top-title a:hover
+{
+    color: #826742;
+}
+/*导航栏超链接向右浮动*/
+.top-right {
+    font-size: 13px;
+    float: right;
+    color: #999999;
+    padding-right: 28px;
+    text-decoration: none;
+}
+.top-head{
+    padding-left: 5px;
+    font-size: 13px;
+    color: #999999;
+}
+/*店面信息*/
+.mid-face {
+    /*background-color: #0092ef;*/
+    background-color: #F8ECD6;
+    padding: 0px 168px 0px 168px;
+    margin-bottom: 40px;
+}
+
+.top-mid-text {
+    padding-left: 5px;
+    font-size: 13px;
+    height: 36px;
+}
+
+.mid-text {
+    height: 290px;
+    background-color: #FFFAE8;
+    /*background-color:red;*/
+    border: 1px #eaeaea solid;
+    border-radius: 15px;
+    padding: 15px 15px;
+}
+
+.sum-picture {
+    float: right;
+    width: 384px;
+}
+
+.small-picture {
+    padding: 10px 0px 0px 0px;
+}
+.mid-text-left-top a{
+    color: #666666;
+    font-size: 30px;
+    font-weight: 900;
+}
+.mid-text-left-top a:hover{
+    color: #826742;
+}
+.mid-text-left-top {
+    width: 748px;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.picture-2 {
+    float: left;
+    margin: 10px 5px 0px 5px;
+}
+
+.name-3 {
+    font-size: 13px;
+    margin: 12px 0px 0px 0px;
+}
+
+.mid-text-left-mid {
+    padding-top: 20px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    height: 100px;
+    width: 752px;
+    border-bottom: 1px #eaeaea solid;
+    border-top: 1px #eaeaea solid;
+}
+
+.mid-text-left-mid a {
+    font-size: 15px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.mid-text-span-1 {
+    margin-left: 5px;
+    font-size: 15px;
+    color: #999999;
+}
+
+.mid-text-span-2 {
+    display: block;
+    margin-top: 16px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #999999;
+}
+
+.mid-text-span-3 {
+    display: block;
+    margin-top: 16px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #999999;
+}
+.mid-text-left-mid a:hover{
+    color: #826742;
+}
+/*两人桌信息*/
+.restaurant-show{
+    border: 1px #826742 solid;
+    border-radius: 15px;
+    height: 420px;
+    background-color: #FFFAE8;
+    margin: 0px 168px 40px 168px;
+}
+.restaurant-title{
+    padding-left: 15px;
+    color: #826742;
+    height: 60px;
+    border-bottom: 1px #826742 solid;
+    border-radius: 15px;
+}
+.classify{
+    float: right;
+}
+.classify>span{
+    color: #826742;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 15px;
+    display: block;
+    float: right;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px #eaeaea solid;
+    margin-right: 20px;
+}
+/*订桌按钮*/
+.book-desk{
+    display: block;
+    float: right;
+    background-color: #FF9900;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: 1px #eaeaea solid;
+    margin-left: 20px;
+}
+.book-show,.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.book-select{
+    background-color: #FFFAE8;
+    width: 480px;
+    height: 300px;
+    margin: 130px auto 0px;
+    border-radius: 15px;
+}
+.book-title{
+    background-color: #F8ECD6;
+    height: 52px;
+    border-radius: 15px;
+    line-height: 52px;
+    padding-left: 20px;
+    color: #5D5D5D;
+    font-size: 15px;
+}
+.book-title>p{
+    font-size: 25px;
+    line-height: 50px;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.book-button-desk {
+    font-size: 15px;
+    color: #5D5D5D;
+    margin: 30px 0px 35px 0px;
+}
+.book-button-desk>input{
+    margin-left: 44px;
+}
+.book-button-time>input{
+    margin-left: 42px;
+    margin-bottom: 35px;
+}
+.book-button-time{
+    font-size: 15px;
+    color: #5D5D5D;
+}
+.book-submit{
+    display: block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    text-align: center;
+    width: 85px;
+    height: 26px;
+    margin: 0px auto;
+    border: 1px #E5E5E5 solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: #F8ECD6;
+}
+.book-pay{
+    display: block;
+    cursor: pointer;
+    color: #666666;
+    font-size: 15px;
+    text-align: center;
+    width: 85px;
+    height: 26px;
+    margin: 0px auto;
+    border: 1px #E5E5E5 solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    background-color: #F8ECD6;
+}
+/*支付*/
+.weixn,.zhifubao{
+    color: #5D5D5D;
+    font-size: 15px;
+    display: block;
+    float: left;
+    width: 150px;
+    margin: 5px 0px 5px 50px;
+}
+.book-select>img{
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
